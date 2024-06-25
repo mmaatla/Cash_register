@@ -1,0 +1,61 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"], button {
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#change-left {
+    margin-top: 20px;
+}
+
+#change-left h3 {
+    margin-bottom: 10px;
+}
+
+#change-left label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#change-left input[type="number"] {
+    width: 100px;
+    margin-bottom: 5px;
+}
+
+#update-cid-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#update-cid-btn:hover {
+    background-color: #0056b3;
+}

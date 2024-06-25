@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <label for="price">Price of the Item:</label>
+      <input type="number" id="price" placeholder="Enter price" />
+
+      <label for="cash">Cash Provided by Customer:</label>
+      <input type="number" id="cash" placeholder="Enter cash" />
+
+      <button id="purchase-btn">Purchase</button>
+
+      <div id="change-due"></div>
+
+      <div id="change-left">
+        <h3>Change Left in Drawer (CID)</h3>
+        <label for="cid-penny">Penny:</label>
+        <input type="number" id="cid-penny" value="1.01" />
+        <label for="cid-nickel">Nickel:</label>
+        <input type="number" id="cid-nickel" value="2.05" />
+        <label for="cid-dime">Dime:</label>
+        <input type="number" id="cid-dime" value="3.1" />
+        <label for="cid-quarter">Quarter:</label>
+        <input type="number" id="cid-quarter" value="4.25" />
+        <label for="cid-one">One Dollar:</label>
+        <input type="number" id="cid-one" value="90" />
+        <label for="cid-five">Five Dollar:</label>
+        <input type="number" id="cid-five" value="55" />
+        <label for="cid-ten">Ten Dollar:</label>
+        <input type="number" id="cid-ten" value="20" />
+        <label for="cid-twenty">Twenty Dollar:</label>
+        <input type="number" id="cid-twenty" value="60" />
+        <label for="cid-hundred">One Hundred Dollar:</label>
+        <input type="number" id="cid-hundred" value="100" />
+        <button id="update-cid-btn">Update CID</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
